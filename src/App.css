@@ -1,0 +1,41 @@
+/* html {
+  background-color: aliceblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #646cff;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  clip-path: circle();
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+nav div {
+  margin: 0 10px;
+}
