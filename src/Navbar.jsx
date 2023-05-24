@@ -1,9 +1,10 @@
 function Navbar() {
   return (
     <nav>
-      <div>Home</div>
-      <div>About Me</div>
-      <div>Hobbies</div>
+      <a href='#main-profile'>Home</a>
+      <a href='#about-me'>About Me</a>
+      <a href='#hobbies'>Hobbies</a>
+      <a href='#projects'>Projects</a>
     </nav>
   )
 }

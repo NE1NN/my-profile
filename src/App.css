@@ -17,7 +17,7 @@ main {
   
 }
 
-img {
+.profile-img {
   clip-path: circle();
 }
 
@@ -31,36 +31,38 @@ section {
 nav {
   display: flex;
   margin-bottom: 50px;
-  background-color: aliceblue;
+  background-color: #2d3943;
   box-sizing: border-box;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-nav div {
+nav a {
   margin: 0 10px;
+  text-decoration: none;
+  color: white;
 }
 
-.main-profile {
+#main-profile {
   background-color: #5198d2;
 }
 
-.about-me {
+#about-me {
   background-color: #406d91;
 }
 
-.hobbies {
+#hobbies {
   background-color: #041320;
 }
 
-.projects {
+#projects {
   background-color:#2d3943;
 }
 
-.main-profile,
-.about-me,
-.hobbies,
-.projects {
+#main-profile,
+#about-me,
+#hobbies,
+#projects {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   padding: 50px;
@@ -81,4 +83,8 @@ li {
 
 .elem {
   padding: 30px;
+}
+
+.proj-img {
+  max-width: 500px;
 }
